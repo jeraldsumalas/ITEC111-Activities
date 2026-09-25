@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .profile-card {
+            max-width: 500px;
+            width: 100%;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+        .avatar {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin: 0 auto 20px auto;
+            overflow: hidden; /* Ensures the image doesn't bleed past the rounded border */
+        }
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Prevents the image from stretching or squeezing */
+            display: block;
+        }
+        h1 {
+            color: #2c3e50;
+            margin: 10px 0 5px 0;
+        }
+        .role {
+            color: #e74c3c;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+        .bio {
+            color: #7f8c8d;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .back-link {
+            display: inline-block;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <div class="avatar"><img src="person.png" alt="JD" ></div>
+        
+        <!-- STUDENTS: REPLACE THE TEXT BELOW WITH YOUR OWN INFO -->
+        <h1>JERALD B. SUMALAS</h1>
+        <div class="role">Student</div>
+        
+        <p class="bio">
+            Hi! I am a student learning web development and Git version control. 
+            My favorite hobbies are gaming, playing volleyball, and drinking water with something. 
+            I'm excited to see everyone's profile pages!
+        </p>
+        
+        <a href="index.html" class="back-link">← Back to Directory</a>
+    </div>
+
+</body>
+</html>
